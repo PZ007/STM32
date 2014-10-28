@@ -1,5 +1,6 @@
 <H1>STM32 IAP</H1>
 
+<h3>Summary</h3>
 This directory contains In-Application Programming (IAP) applications for STM32 type microcontrollers. Such applications are also called <em>bootstrap loaders</em> or simply <em>boot loaders</em>.
 Once programmed to Flash memory, they allow the reprogramming of the <em>domain application</em> via a serial interface.
 
@@ -24,7 +25,7 @@ All IAPs in this repository share the following features:
 <li>If no domain application is present in Flash memory, the IAP stays running in any case.</li>
 </ul>
 
-Notes:
+<h3>Notes</h3>
 <ul>
 <li>The Flash sectors between the lowest 8KiB memory area (for the IAP) and the 4th sector (counting starts at 0) can be used for domain application's configuration and EEPROM emulation.</li>
 <li>Terminal programs that support the YMODEM protocol: minicom on Linux, TeraTerm on windows</li>
@@ -37,3 +38,10 @@ Notes:
 </ul>
 </ul>
 
+<h3>TODO</h3>
+<ul>
+<li>Add instructions how to program the IAP</li>
+<li>Add hint how to get IAP for similar processors</li>
+<li>Future features of IAP: 1st sector of domain application is selectable</li>
+<li>Add hint to Nucleo boards</li>
+<li>Add links to http://bitcontrol.ch</li>
