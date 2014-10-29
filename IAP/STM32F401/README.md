@@ -21,7 +21,7 @@ The programming has successfully been tested using
 <li>The ST-LINK connection between the host and the target board; this requires a USB cable with the plugs <em>Standard A to Mini B</em></li>
 <li>The Keil IDE uVision version V5.10.0.2</li>
 </ul>
-The uVision project file as well as its option file are part of this directory. Follow the instructions here ??? http://www.keil.com/support/man/docs/uv4/uv4_fl_hexdownload.htm if you need help.
+The uVision project file as well as its option file are part of this directory. Follow the instructions <a href="http://www.keil.com/support/man/docs/uv4/uv4_fl_hexdownload.htm" target="_blank">here</a> if you need help.
 
 <h3>Notes</h3>
 <ul>
