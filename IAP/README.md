@@ -4,6 +4,7 @@
 This directory contains In-Application Programming (IAP) applications for STM32 type microcontrollers. Such applications are also called <em>bootstrap loaders</em> or simply <em>boot loaders</em>.
 Once programmed to Flash memory, they allow the reprogramming of the <em>domain application</em> via a serial interface.
 
+<h3>Application Features</h3>
 All IAPs in this repository share the following features:
 <ul>
 <li>They occupy the lowest 8KiB Flash memory in the controller</li>
@@ -13,8 +14,8 @@ All IAPs in this repository share the following features:
 <li>The IAP application is invoked after each reset of the microcontroller</li>
 <li>If a domain application is present in Flash memory, the IAP application passes control immediately along to this application after a microcontroller reset. The IAP application can be kept running in two ways (see the readme file of the specific IAP project for details):
 <ol>
-<li>By pulling a specific input pin to GND during start-up (a user pushes a button)</li>
-<li>By writing a specific bit pattern to a specific RAM location and then invoking a microcontroller reset (the domain application does that)</li>
+<li>By pulling a specific pin to GND during start-up (a user pushes a button)</li>
+<li>By writing a specific bit pattern to a specific RAM location and then invoking a microcontroller reset; the domain application has to be programmed accordingly</li>
 </ol>
 <li>Once running the IAP application exits in one of these ways:
 <ol>
@@ -27,7 +28,7 @@ All IAPs in this repository share the following features:
 
 <h3>Notes</h3>
 <ul>
-<li>The Flash sectors between the lowest 8KiB memory area (for the IAP) and the 4th sector (counting starts at 0) can be used for domain application's configuration and EEPROM emulation.</li>
+<li>The Flash sectors between the lowest 8KiB memory area (for the IAP) and sector 4 (counting starts at 0) can be used for domain application's configuration and EEPROM emulation.</li>
 <li>Terminal programs that support the YMODEM protocol: minicom on Linux, TeraTerm on windows</li>
 <li>The YMODEM protocol has been chosen because:
 <ul>
@@ -42,6 +43,6 @@ All IAPs in this repository share the following features:
 <ul>
 <li>Add instructions how to program the IAP</li>
 <li>Add hint how to get IAP for similar processors</li>
-<li>Future features of IAP: 1st sector of domain application is selectable</li>
+<li>Future features: 1st sector of domain application can be selected via command line</li>
 <li>Add hint to Nucleo boards</li>
 <li>Add links to http://bitcontrol.ch</li>
