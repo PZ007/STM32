@@ -41,8 +41,4 @@ All IAPs in this repository share the following features:
 
 <h3>TODO</h3>
 <ul>
-<li>Add instructions how to program the IAP</li>
-<li>Add hint how to get IAP for similar processors</li>
 <li>Future features: 1st sector of domain application can be selected via command line</li>
-<li>Add hint to Nucleo boards</li>
-<li>Add links to http://bitcontrol.ch</li>
