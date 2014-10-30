@@ -4,7 +4,7 @@
 This directory contains the In-Application Programming (IAP) application for the STM32F401 microcontroller.
 
 <h3>Application Features</h3>
-See the IAP top-level <a href="https://github.com/bitcontrol/STM32/blob/master/IAP/README.md" title="IAP top-level README.md" target="_blank">README.md</a> file for the common features of this application. Specific to it is:
+See the IAP top-level <a href="https://github.com/bitcontrol/STM32/blob/master/IAP/README.md" title="IAP top-level README.md" target="_blank">README.md</a> file for the common features of this application. Specific to it is the port pin that keeps it running after a reset:
 <ul>
 <li>If a domain application is present in Flash memory, the IAP application passes control immediately along to this application after a microcontroller reset. The IAP application can be kept running in two ways:
 <ol>
@@ -25,5 +25,6 @@ The uVision project file as well as its option file are part of this directory. 
 
 <h3>Notes</h3>
 <ul>
-<li>This application might also work for other STM32F4xx devices. If it doesn't for yours, send an e-mail to info@bitcontrol.ch.</li>
+<li>This application might also work for other STM32F4xx devices. If it doesn't for yours, send an e-mail to info@bitcontrol.ch. We might be able to build one for you in short time.</li>
+<li>If you need a different port pin or a different address in RAM for keeping the IAP running, again, drop us an e-mail.</li>
 </ul>
