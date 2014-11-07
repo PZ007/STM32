@@ -1,10 +1,10 @@
-<H1>STM32 IAP</H1>
+<h1>STM32 IAP</h1>
 
 <h3>Summary</h3>
 This directory contains In-Application Programming (IAP) applications for STM32 type microcontrollers. Such applications are also called <em>bootstrap loaders</em> or simply <em>boot loaders</em>.
 Once programmed to Flash memory, they allow the reprogramming of the <em>domain application</em> via a serial interface.
 
-<h3>Application Features</h3>
+<h3>Features</h3>
 All IAPs in this repository share the following features:
 <ul>
 <li>They occupy the lowest 8KiB Flash memory in the controller</li>
@@ -42,3 +42,4 @@ All IAPs in this repository share the following features:
 <h3>TODO</h3>
 <ul>
 <li>Future features: 1st sector of domain application can be selected via command line</li>
+</ul>

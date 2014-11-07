@@ -1,9 +1,9 @@
-<H1>STM32F401 IAP</H1>
+<h1>STM32F401 IAP</h1>
 
 <h3>Summary</h3>
 This directory contains the In-Application Programming (IAP) application for the STM32F401 microcontroller.
 
-<h3>Application Features</h3>
+<h3>Features</h3>
 See the IAP top-level <a href="https://github.com/bitcontrol/STM32/blob/master/IAP/README.md" title="IAP top-level README.md" target="_blank">README.md</a> file for the common features of this application. Specific to it is the port pin that keeps it running after a reset:
 <ul>
 <li>If a domain application is present in Flash memory, the IAP application passes control immediately along to this application after a microcontroller reset. The IAP application can be kept running in two ways:
