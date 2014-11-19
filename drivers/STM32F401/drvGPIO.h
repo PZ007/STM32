@@ -20,7 +20,8 @@
  *
  *  Author:         Andreas Isenegger
  *  Copyright:      2014, Bitcontrol GmbH, Switzerland.
- *                  All rights reserved.
+ *                  Copyright granted under the MIT License.
+ *                  See http://opensource.org/licenses/MIT for the license text.
  */
 
 #ifndef DRVGPIO_H_

@@ -16,7 +16,8 @@
  *
  *  Author:         Andreas Isenegger
  *  Copyright:      2014, Bitcontrol GmbH, Switzerland.
- *                  All rights reserved.
+ *                  Copyright granted under the MIT License.
+ *                  See http://opensource.org/licenses/MIT for the license text.
  */
 
 #ifndef DRVGPIO_H_
@@ -53,7 +54,11 @@ typedef enum drvGPIO_IO_mode_enum
     DRV_GPIO_IO_MODE_CNT,
 } drvGPIO_IO_mode_t;
 
-/** Maximum output frequency enumeration. */
+/**
+ * Maximum output frequency enumeration.
+ * Note that the values and order is coupled to the bits in the GPIO control
+ * registers.
+ */
 typedef enum drvGPIO_outMaxFreq_enum
 {
     DRV_GPIO_OUT_MAX_FREQ_10MHZ = 1,
