@@ -31,6 +31,8 @@
 extern "C" {
 #endif
 
+#include <cfgGlobal.h>
+
 //------------------------------------------------------------------------------
 // Symbols and Macros
 
@@ -147,6 +149,19 @@ int drvGPIO_clrOutputBits(int instId, unsigned short bitPattern);
  * started, \c R_ERROR otherwise.
  */
 int drvGPIO_configPin(int instId, const drvGPIO_pinAttr_t* pinAttr);
+
+/**
+ * Returns if the specified instance is running.
+ * The returned value is \c TRUE if the specified instance is running, \c
+ * FALSE otherwise.
+ * @param[in] instId is the instance identifier.
+ * @param[out] result points to the variable that will hold the status after
+ * this function has returned successfully. In case of an error it won't be
+ * changed.
+ * @return \c R_SUCCESS if the parameter checks pass and the instance has been
+ * started, \c R_ERROR otherwise.
+ */
+int drvGPIO_isRunning(int instId, BOOL* result);
 
 /** Returns the status of the 16 I/Os of the selected port.
  * @param[in] instId is the instance identifier.

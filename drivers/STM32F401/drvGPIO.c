@@ -275,6 +275,15 @@ int drvGPIO_configPin(int instId, const drvGPIO_pinAttr_t* pinAttr)
     return R_SUCCESS;
 }
 
+int drvGPIO_isRunning(int instId, BOOL* result)
+{
+    CHECK_RANGE_INT(instId, 0, DRV_GPIO_INST_CNT);
+    CHECK_POINTER_INT(result);
+
+    *result = sInstDscr[instId].started;
+    return R_SUCCESS;
+}
+
 int drvGPIO_readIO_state(int instId, unsigned short* value)
 {
     CHECK_RANGE_INT(instId, 0, DRV_GPIO_INST_CNT);
