@@ -1,0 +1,169 @@
+Dependencies for Project 'F401_UART_example', Target 'Debug': (DO NOT MODIFY !)
+F (.\init.c)(0x5493FE60)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I. -I..\..\..\config\shared -I..\..\..\config\STM32F401 -I..\..\..\drivers\STM32F401-I C:\Users\andreas\devl\STM32\projects\STM32F401\UART_example\RTE-I C:\Users\andreas\devl\STM32\projects\STM32F401\UART_example\RTE\Device\STM32F401RE-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\Include-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D_RTE_ -DSTM32F401xx -DSTM32F401xE -DUSE_STDPERIPH_DRIVER -D__USE_C99_MATH -D__DEBUG -o .\debug\init.o --omf_browse .\debug\init.crf --depend .\debug\init.d)
+I (init.h)(0x5493FD27)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\Include\stm32f4xx.h)(0x529F0F82)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm4.h)(0x512C80D2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x52FE34EE)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BAB7D4)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C80D2)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm4_simd.h)(0x522D9D58)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\Include\system_stm32f4xx.h)(0x529F0F82)
+I (.\stm32f4xx_conf.h)(0x5493FBD4)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\misc.h)(0x52B40146)
+I (..\..\..\config\STM32F401\cfgPlatform.h)(0x54942708)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x52FE34EE)
+I (cfgProject.h)(0x54945176)
+I (..\..\..\drivers\STM32F401\drvUART.h)(0x546C540F)
+I (..\..\..\config\shared\cfgGlobal.h)(0x546C59D3)
+F (.\main.c)(0x5494538E)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I. -I..\..\..\config\shared -I..\..\..\config\STM32F401 -I..\..\..\drivers\STM32F401-I C:\Users\andreas\devl\STM32\projects\STM32F401\UART_example\RTE-I C:\Users\andreas\devl\STM32\projects\STM32F401\UART_example\RTE\Device\STM32F401RE-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\Include-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D_RTE_ -DSTM32F401xx -DSTM32F401xE -DUSE_STDPERIPH_DRIVER -D__USE_C99_MATH -D__DEBUG -o .\debug\main.o --omf_browse .\debug\main.crf --depend .\debug\main.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x52FE34EE)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\Include\stm32f4xx.h)(0x529F0F82)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm4.h)(0x512C80D2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x52FE34EE)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BAB7D4)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C80D2)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm4_simd.h)(0x522D9D58)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\Include\system_stm32f4xx.h)(0x529F0F82)
+I (.\stm32f4xx_conf.h)(0x5493FBD4)
+I (..\..\..\config\shared\cfgGlobal.h)(0x546C59D3)
+I (..\..\..\config\STM32F401\cfgPlatform.h)(0x54942708)
+I (cfgProject.h)(0x54945176)
+I (..\..\..\drivers\STM32F401\drvUART.h)(0x546C540F)
+I (..\..\..\drivers\STM32F401\drvGPIO.h)(0x54775B99)
+I (..\..\..\drivers\STM32F401\drvSysTick.h)(0x546D991C)
+I (init.h)(0x5493FD27)
+I (prpLine.h)(0x54945365)
+F (.\retarget.c)(0x5493FE60)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I. -I..\..\..\config\shared -I..\..\..\config\STM32F401 -I..\..\..\drivers\STM32F401-I C:\Users\andreas\devl\STM32\projects\STM32F401\UART_example\RTE-I C:\Users\andreas\devl\STM32\projects\STM32F401\UART_example\RTE\Device\STM32F401RE-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\Include-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D_RTE_ -DSTM32F401xx -DSTM32F401xE -DUSE_STDPERIPH_DRIVER -D__USE_C99_MATH -D__DEBUG -o .\debug\retarget.o --omf_browse .\debug\retarget.crf --depend .\debug\retarget.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x52FE34EE)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\Include\stm32f4xx.h)(0x529F0F82)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm4.h)(0x512C80D2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x52FE34EE)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BAB7D4)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C80D2)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm4_simd.h)(0x522D9D58)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\Include\system_stm32f4xx.h)(0x529F0F82)
+I (.\stm32f4xx_conf.h)(0x5493FBD4)
+I (cfgProject.h)(0x54945176)
+I (..\..\..\config\STM32F401\cfgPlatform.h)(0x54942708)
+I (..\..\..\drivers\STM32F401\drvUART.h)(0x546C540F)
+I (..\..\..\config\shared\cfgGlobal.h)(0x546C59D3)
+F (..\..\..\config\shared\cfgGlobal.h)(0x546C59D3)()
+F (..\..\..\config\STM32F401\cfgPlatform.c)(0x546C6184)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I. -I..\..\..\config\shared -I..\..\..\config\STM32F401 -I..\..\..\drivers\STM32F401-I C:\Users\andreas\devl\STM32\projects\STM32F401\UART_example\RTE-I C:\Users\andreas\devl\STM32\projects\STM32F401\UART_example\RTE\Device\STM32F401RE-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\Include-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D_RTE_ -DSTM32F401xx -DSTM32F401xE -DUSE_STDPERIPH_DRIVER -D__USE_C99_MATH -D__DEBUG -o .\debug\cfgplatform.o --omf_browse .\debug\cfgplatform.crf --depend .\debug\cfgplatform.d)
+I (..\..\..\config\STM32F401\cfgPlatform.h)(0x54942708)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x52FE34EE)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\Include\stm32f4xx.h)(0x529F0F82)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm4.h)(0x512C80D2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x52FE34EE)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BAB7D4)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C80D2)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm4_simd.h)(0x522D9D58)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\Include\system_stm32f4xx.h)(0x529F0F82)
+I (.\stm32f4xx_conf.h)(0x5493FBD4)
+F (.\cfgProject.c)(0x5494295D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I. -I..\..\..\config\shared -I..\..\..\config\STM32F401 -I..\..\..\drivers\STM32F401-I C:\Users\andreas\devl\STM32\projects\STM32F401\UART_example\RTE-I C:\Users\andreas\devl\STM32\projects\STM32F401\UART_example\RTE\Device\STM32F401RE-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\Include-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D_RTE_ -DSTM32F401xx -DSTM32F401xE -DUSE_STDPERIPH_DRIVER -D__USE_C99_MATH -D__DEBUG -o .\debug\cfgproject.o --omf_browse .\debug\cfgproject.crf --depend .\debug\cfgproject.d)
+I (cfgProject.h)(0x54945176)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\Include\stm32f4xx.h)(0x529F0F82)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm4.h)(0x512C80D2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x52FE34EE)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BAB7D4)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C80D2)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm4_simd.h)(0x522D9D58)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\Include\system_stm32f4xx.h)(0x529F0F82)
+I (.\stm32f4xx_conf.h)(0x5493FBD4)
+I (..\..\..\config\STM32F401\cfgPlatform.h)(0x54942708)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x52FE34EE)
+I (..\..\..\drivers\STM32F401\drvUART.h)(0x546C540F)
+I (..\..\..\config\shared\cfgGlobal.h)(0x546C59D3)
+I (..\..\..\drivers\STM32F401\drvGPIO.h)(0x54775B99)
+F (..\..\..\drivers\STM32F401\drvGPIO.c)(0x54775DA1)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I. -I..\..\..\config\shared -I..\..\..\config\STM32F401 -I..\..\..\drivers\STM32F401-I C:\Users\andreas\devl\STM32\projects\STM32F401\UART_example\RTE-I C:\Users\andreas\devl\STM32\projects\STM32F401\UART_example\RTE\Device\STM32F401RE-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\Include-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D_RTE_ -DSTM32F401xx -DSTM32F401xE -DUSE_STDPERIPH_DRIVER -D__USE_C99_MATH -D__DEBUG -o .\debug\drvgpio.o --omf_browse .\debug\drvgpio.crf --depend .\debug\drvgpio.d)
+I (..\..\..\drivers\STM32F401\drvGPIO.h)(0x54775B99)
+I (..\..\..\config\shared\cfgGlobal.h)(0x546C59D3)
+I (..\..\..\config\STM32F401\cfgPlatform.h)(0x54942708)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x52FE34EE)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\Include\stm32f4xx.h)(0x529F0F82)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm4.h)(0x512C80D2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x52FE34EE)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BAB7D4)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C80D2)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm4_simd.h)(0x522D9D58)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\Include\system_stm32f4xx.h)(0x529F0F82)
+I (.\stm32f4xx_conf.h)(0x5493FBD4)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x52FE34EE)
+F (..\..\..\drivers\STM32F401\drvSysTick.c)(0x546D991C)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I. -I..\..\..\config\shared -I..\..\..\config\STM32F401 -I..\..\..\drivers\STM32F401-I C:\Users\andreas\devl\STM32\projects\STM32F401\UART_example\RTE-I C:\Users\andreas\devl\STM32\projects\STM32F401\UART_example\RTE\Device\STM32F401RE-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\Include-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D_RTE_ -DSTM32F401xx -DSTM32F401xE -DUSE_STDPERIPH_DRIVER -D__USE_C99_MATH -D__DEBUG -o .\debug\drvsystick.o --omf_browse .\debug\drvsystick.crf --depend .\debug\drvsystick.d)
+I (..\..\..\drivers\STM32F401\drvSysTick.h)(0x546D991C)
+I (..\..\..\config\STM32F401\cfgPlatform.h)(0x54942708)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x52FE34EE)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\Include\stm32f4xx.h)(0x529F0F82)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm4.h)(0x512C80D2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x52FE34EE)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BAB7D4)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C80D2)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm4_simd.h)(0x522D9D58)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\Include\system_stm32f4xx.h)(0x529F0F82)
+I (.\stm32f4xx_conf.h)(0x5493FBD4)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x52FE34EE)
+I (..\..\..\config\shared\cfgGlobal.h)(0x546C59D3)
+F (..\..\..\drivers\STM32F401\drvUART.c)(0x546C53F3)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I. -I..\..\..\config\shared -I..\..\..\config\STM32F401 -I..\..\..\drivers\STM32F401-I C:\Users\andreas\devl\STM32\projects\STM32F401\UART_example\RTE-I C:\Users\andreas\devl\STM32\projects\STM32F401\UART_example\RTE\Device\STM32F401RE-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\Include-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D_RTE_ -DSTM32F401xx -DSTM32F401xE -DUSE_STDPERIPH_DRIVER -D__USE_C99_MATH -D__DEBUG -o .\debug\drvuart.o --omf_browse .\debug\drvuart.crf --depend .\debug\drvuart.d)
+I (..\..\..\drivers\STM32F401\drvUART.h)(0x546C540F)
+I (..\..\..\config\shared\cfgGlobal.h)(0x546C59D3)
+I (..\..\..\config\STM32F401\cfgPlatform.h)(0x54942708)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x52FE34EE)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\Include\stm32f4xx.h)(0x529F0F82)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm4.h)(0x512C80D2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x52FE34EE)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BAB7D4)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C80D2)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm4_simd.h)(0x522D9D58)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\Include\system_stm32f4xx.h)(0x529F0F82)
+I (.\stm32f4xx_conf.h)(0x5493FBD4)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x52FE34EE)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\misc.h)(0x52B40146)
+I (.\cfgProject.h)(0x54945176)
+I (..\..\..\drivers\STM32F401\drvGPIO.h)(0x54775B99)
+F (.\prpLine.c)(0x54945361)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I. -I..\..\..\config\shared -I..\..\..\config\STM32F401 -I..\..\..\drivers\STM32F401-I C:\Users\andreas\devl\STM32\projects\STM32F401\UART_example\RTE-I C:\Users\andreas\devl\STM32\projects\STM32F401\UART_example\RTE\Device\STM32F401RE-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\Include-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D_RTE_ -DSTM32F401xx -DSTM32F401xE -DUSE_STDPERIPH_DRIVER -D__USE_C99_MATH -D__DEBUG -o .\debug\prpline.o --omf_browse .\debug\prpline.crf --depend .\debug\prpline.d)
+I (prpLine.h)(0x54945365)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x52FE34EE)
+I (..\..\..\config\shared\cfgGlobal.h)(0x546C59D3)
+I (..\..\..\config\STM32F401\cfgPlatform.h)(0x54942708)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x52FE34EE)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\Include\stm32f4xx.h)(0x529F0F82)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm4.h)(0x512C80D2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x52FE34EE)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BAB7D4)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C80D2)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm4_simd.h)(0x522D9D58)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\Include\system_stm32f4xx.h)(0x529F0F82)
+I (.\stm32f4xx_conf.h)(0x5493FBD4)
+I (cfgProject.h)(0x54945176)
+I (..\..\..\drivers\STM32F401\drvUART.h)(0x546C540F)
+F (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\StdPeriph_Driver\src\misc.c)(0x52B40146)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I. -I..\..\..\config\shared -I..\..\..\config\STM32F401 -I..\..\..\drivers\STM32F401-I C:\Users\andreas\devl\STM32\projects\STM32F401\UART_example\RTE-I C:\Users\andreas\devl\STM32\projects\STM32F401\UART_example\RTE\Device\STM32F401RE-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\Include-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D_RTE_ -DSTM32F401xx -DSTM32F401xE -DUSE_STDPERIPH_DRIVER -D__USE_C99_MATH -D__DEBUG -o .\debug\misc.o --omf_browse .\debug\misc.crf --depend .\debug\misc.d)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\misc.h)(0x52B40146)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\Include\stm32f4xx.h)(0x529F0F82)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm4.h)(0x512C80D2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x52FE34EE)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BAB7D4)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C80D2)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm4_simd.h)(0x522D9D58)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\Include\system_stm32f4xx.h)(0x529F0F82)
+I (.\stm32f4xx_conf.h)(0x5493FBD4)
+F (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\StdPeriph_Driver\src\stm32f4xx_rcc.c)(0x52B40146)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I. -I..\..\..\config\shared -I..\..\..\config\STM32F401 -I..\..\..\drivers\STM32F401-I C:\Users\andreas\devl\STM32\projects\STM32F401\UART_example\RTE-I C:\Users\andreas\devl\STM32\projects\STM32F401\UART_example\RTE\Device\STM32F401RE-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\Include-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D_RTE_ -DSTM32F401xx -DSTM32F401xE -DUSE_STDPERIPH_DRIVER -D__USE_C99_MATH -D__DEBUG -o .\debug\stm32f4xx_rcc.o --omf_browse .\debug\stm32f4xx_rcc.crf --depend .\debug\stm32f4xx_rcc.d)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x52B40146)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\Include\stm32f4xx.h)(0x529F0F82)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm4.h)(0x512C80D2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x52FE34EE)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BAB7D4)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C80D2)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm4_simd.h)(0x522D9D58)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\Include\system_stm32f4xx.h)(0x529F0F82)
+I (.\stm32f4xx_conf.h)(0x5493FBD4)
+F (RTE\Device\STM32F401RE\RTE_Device.h)(0x535F8474)()
+F (RTE\Device\STM32F401RE\startup_stm32f401xx.s)(0x529F0F82)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Users\andreas\devl\STM32\projects\STM32F401\UART_example\RTE-I C:\Users\andreas\devl\STM32\projects\STM32F401\UART_example\RTE\Device\STM32F401RE-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\Include-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\StdPeriph_Driver\inc--list .\startup_stm32f401xx.lst --xref -o .\debug\startup_stm32f401xx.o --depend .\debug\startup_stm32f401xx.d)
+F (RTE\Device\STM32F401RE\stm32f4xx_conf.h)(0x52E61FA8)()
+F (RTE\Device\STM32F401RE\system_stm32f4xx.c)(0x5493FE56)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I. -I..\..\..\config\shared -I..\..\..\config\STM32F401 -I..\..\..\drivers\STM32F401-I C:\Users\andreas\devl\STM32\projects\STM32F401\UART_example\RTE-I C:\Users\andreas\devl\STM32\projects\STM32F401\UART_example\RTE\Device\STM32F401RE-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\Include-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\StdPeriph_Driver\inc-D_RTE_ -DSTM32F401xx -DSTM32F401xE -DUSE_STDPERIPH_DRIVER -D__USE_C99_MATH -D__DEBUG -o .\debug\system_stm32f4xx.o --omf_browse .\debug\system_stm32f4xx.crf --depend .\debug\system_stm32f4xx.d)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\Include\stm32f4xx.h)(0x529F0F82)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm4.h)(0x512C80D2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x52FE34EE)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BAB7D4)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C80D2)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm4_simd.h)(0x522D9D58)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\Include\system_stm32f4xx.h)(0x529F0F82)
+I (.\stm32f4xx_conf.h)(0x5493FBD4)

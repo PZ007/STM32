@@ -1,0 +1,98 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\andreas\devl\STM32\projects\STM32F401\UART_example\F401_UART_example.uvprojx
+Project File Date:  12/19/2014
+
+<h2>Output:</h2>
+Build target 'Debug'
+compiling init.c...
+compiling main.c...
+..\..\..\drivers\STM32F401\drvSysTick.h(84): warning:  #231-D: declaration is not visible outside of function
+  int drvSysTick_getUptime(struct timeval* uptime);
+main.c(56): warning:  #177-D: variable "pinAttr" was declared but never referenced
+      drvGPIO_pinAttr_t pinAttr;
+main.c(58): warning:  #177-D: variable "plane" was declared but never referenced
+      int plane;
+main.c(60): warning:  #177-D: variable "tickCnt" was declared but never referenced
+      int tickCnt;
+main.c(61): warning:  #177-D: variable "tube" was declared but never referenced
+      int tube;
+main.c: 5 warnings, 0 errors
+compiling retarget.c...
+compiling cfgPlatform.c...
+compiling cfgProject.c...
+compiling drvGPIO.c...
+compiling drvSysTick.c...
+..\..\..\drivers\STM32F401\drvSysTick.h(84): warning:  #231-D: declaration is not visible outside of function
+  int drvSysTick_getUptime(struct timeval* uptime);
+..\..\..\drivers\STM32F401\drvSysTick.c(64): error:  #70: incomplete type is not allowed
+      struct timeval uptime;
+..\..\..\drivers\STM32F401\drvSysTick.c(162): error:  #147-D: declaration is incompatible with "int drvSysTick_getUptime(struct timeval *)" (declared at line 84 of "..\..\..\drivers\STM32F401\drvSysTick.h")
+  int drvSysTick_getUptime(struct timeval* uptime)
+..\..\..\drivers\STM32F401\drvSysTick.c(179): error:  #137: expression must be a modifiable lvalue
+          *uptime = sInstDscr.uptime;
+..\..\..\drivers\STM32F401\drvSysTick.c(191): error:  #393: pointer to incomplete class type is not allowed
+      uptime->tv_usec += sysTickValue * 1000UL / (SystemCoreClock / 1000UL);
+..\..\..\drivers\STM32F401\drvSysTick.c(192): error:  #393: pointer to incomplete class type is not allowed
+      uptime->tv_sec += uptime->tv_usec / 1000000UL;
+..\..\..\drivers\STM32F401\drvSysTick.c(192): error:  #393: pointer to incomplete class type is not allowed
+      uptime->tv_sec += uptime->tv_usec / 1000000UL;
+..\..\..\drivers\STM32F401\drvSysTick.c(193): error:  #393: pointer to incomplete class type is not allowed
+      uptime->tv_usec %= 1000000UL;
+..\..\..\drivers\STM32F401\drvSysTick.c: 1 warning, 7 errors
+compiling drvUART.c...
+..\..\..\drivers\STM32F401\drvUART.c(29): error:  #5: cannot open source input file "cfgProject.h": No such file or directory
+  #include "cfgProject.h"
+..\..\..\drivers\STM32F401\drvUART.c: 0 warnings, 1 error
+compiling misc.c...
+compiling stm32f4xx_rcc.c...
+compiling system_stm32f4xx.c...
+".\Debug\F401_UART_example.axf" - 8 Error(s), 6 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.3.20.4.pack
+                ARM::CMSIS:CORE:3.20.0
+                Cortex Microcontroller Software Interface Standard (CMSIS) CORE, DSP, RTOS, Driver
+   * Component: CORE Version: 3.20.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.1.0.7.pack
+                Keil::Device:Startup:1.3.1
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.3.1
+   * Component: Framework Version: 1.3.1
+   * Component: RCC Version: 1.3.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\andreas\devl\STM32\projects\STM32F401\UART_example\RTE
+  C:\Users\andreas\devl\STM32\projects\STM32F401\UART_example\RTE\Device\STM32F401RE
+  C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include
+  C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\Include
+  C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.7\Device\StdPeriph_Driver\inc
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.20.0
+
+   * Component: Keil::Device:Startup:1.3.1
+      Source file:   Device\Source\ARM\STM32F401xx_OPT.s
+      Source file:   Device\Source\ARM\STM32F4xx_OTP.s
+      Include file:  Device\Include\stm32f4xx.h
+      Source file:   Device\Source\ARM\startup_stm32f401xx.s
+      Source file:   Device\Source\system_stm32f4xx.c
+      Include file:  RTE_Driver\Config\RTE_Device.h
+
+   * Component: Keil::Device:StdPeriph Drivers:Framework:1.3.1
+      Source file:   Device\StdPeriph_Driver\src\misc.c
+      Source file:   Device\StdPeriph_Driver\templates\stm32f4xx_conf.h
+      Source file:   Device\StdPeriph_Driver\templates\stm32f4xx_it.c
+
+   * Component: Keil::Device:StdPeriph Drivers:RCC:1.3.0
+      Include file:  Device\StdPeriph_Driver\inc\stm32f4xx_rcc.h
+      Source file:   Device\StdPeriph_Driver\src\stm32f4xx_rcc.c
+Target not created
