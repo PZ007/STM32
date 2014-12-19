@@ -107,6 +107,12 @@ extern "C" {
 
 //------------------------------------------------------------------------------
 // Types
+/** Time structure as defined also in <sys/time.h> of C libraries. */
+struct timeval
+{
+    unsigned int tv_sec;
+    unsigned int tv_usec;
+};
 
 //------------------------------------------------------------------------------
 // Constants and Variables
