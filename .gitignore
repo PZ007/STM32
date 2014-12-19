@@ -1,0 +1,15 @@
+.metadata/
+*\ Configuration/
+Debug/
+Release/
+rvmdk/
+*.back
+*.bak
+*.crf
+*.lnk
+*.b#*
+*.l#*
+*.s#*
+/gitignore/
+*New.c
+*New.h
